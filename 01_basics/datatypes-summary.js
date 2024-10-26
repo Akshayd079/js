@@ -28,3 +28,33 @@ const myFunction = function (){
 }
 
 console.log(typeof heros);
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++
+
+// memory 
+// stack (primative), Heap (Non primative)
+
+let myCompanyname = 'softhat'
+
+let anothername = myCompanyname
+anothername = 'Softtt'
+
+
+console.log(myCompanyname);
+console.log(anothername);
+
+let userOne = {
+    email : "user@gmail.com",
+    upi : "user@sbi"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user@yahoo.com"
+
+console.log(userTwo.email);
+console.log(userOne.email);
+
+
+
